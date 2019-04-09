@@ -50,6 +50,15 @@
     Assert.AreEqual("John", firstName);             <br>
     }           <br>
 </p>
+<form action="AnswerServlet" method="post">
+    <output name="answer_id" for="1"></output>
+    <input type="radio" name="user_answer" value="1">Method 1
+
+    <br>
+    <input type="radio" name="user_answer" value="2">Method 2
+    <br>
+    <input type="submit"value="提交">
+</form>
 <button>Test1</button>
 <button>Test2</button>
 <button>Skip</button>
