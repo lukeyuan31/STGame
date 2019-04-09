@@ -8,12 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+        <title>Getting Started</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GETTING STARTED WITH SOME EXAMPLES</title>
     <meta name="description" content="Try to find out the better one among these tests.">
-    <link rel="stylesheet" href="css/learn.css">
+    <link type="text/css" link rel="stylesheet" href="css/learn.css">
 
 </head>
 <body>
@@ -60,5 +60,6 @@
 <button>Test2</button>
 <button>Skip</button>
 <button>HINT</button>
+<a href="specific_value.jsp"><font size="2"><i>Next Question</i></font></a>
 </body>
 </html>

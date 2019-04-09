@@ -55,7 +55,7 @@
                     <!--td align="right"><font size="3">密码：</font></td><td colspan="2"><input type="text" name="password"  style="width:200;height:25;"/></td-->
                     <span id="password_text" onclick="this.style.display='none';document.getElementById('password').style.display='block';document.getElementById('password').focus().select();" >密码</span>
                     <input name="password" type="password" id="password" style="display:none;" onblur="if(this.value==''){document.getElementById('password_text').style.display='block';this.style.display='none'};"/>
-                
+
                 <!--tr>
                     <td align="right"><font size="3">验证码：</font></td>
                     <td width="108" valign="middle"><input type="text" name="verifycode" style="width:100;height:25;"/></td>

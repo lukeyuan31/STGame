@@ -55,7 +55,7 @@ public class LoginServlet extends HttpServlet {
             }
             if(psw.equals(password)){
                 request.setAttribute("msg", "用户："+username+",欢迎访问");
-                request.getRequestDispatcher("/jsp/welcome.jsp").forward(request, response);
+                request.getRequestDispatcher("/jsp/adequately_testing.jsp").forward(request, response);
                 //response.setHeader("Refresh","1;url=welcome.jsp");
             }
 

@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GETTING STARTED WITH SOME EXAMPLES</title>
     <meta name="description" content="Try to find out the better one among these tests.">
-    <link rel="stylesheet" href="css/learn.css">
+    <link rel="stylesheet" href="learn.css">
 
 </head>
 <body>
