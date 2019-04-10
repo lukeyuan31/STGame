@@ -54,10 +54,19 @@
     No need to test this method
 
 </p>
-<button>Test1</button>
-<button>Test2</button>
+<form action="AnswerServlet" method="post">
+    <input type="hidden" name="answer_id" value="3">
+    <br>
+    <input type="radio" name="user_answer" value="1">Method 1
+
+    <br>
+    <input type="radio" name="user_answer" value="2">Method 2
+    <br>
+    <input type="submit"value="提交">
+</form>
+
 <button>Skip</button>
 <button>HINT</button>
-<a href="named_correctly.jsp"><font size="2"><i>Next Question</i></font></a>
+<!--a href="named_correctly.jsp"><font size="2"><i>Next Question</i></font></a-->
 </body>
 </html>

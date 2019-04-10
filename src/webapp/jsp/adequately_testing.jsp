@@ -65,10 +65,8 @@
     <br>
     <input type="submit"value="提交">
 </form>
-<button>Test1</button>
-<button>Test2</button>
 <button>Skip</button>
 <button>HINT</button>
-<a href="jsp/chaining_test.jsp"><font size="2"><i>Next Question</i></font></a>
+<!--a href="jsp/chaining_test.jsp"><font size="2"><i>Next Question</i></font></a-->
 </body>
 </html>

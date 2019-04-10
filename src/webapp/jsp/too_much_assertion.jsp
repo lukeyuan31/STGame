@@ -53,6 +53,16 @@
         public void Test_InvalidEntries(){          <br>
         Assert.IsFalse(customerProcessor.HasInvalidEntries);            <br>
         }</p>
+    <form action="AnswerServlet" method="post">
+        <input type="hidden" name="answer_id" value="7">
+        <br>
+        <input type="radio" name="user_answer" value="1">Method 1
+
+        <br>
+        <input type="radio" name="user_answer" value="2">Method 2
+        <br>
+        <input type="submit"value="提交">
+    </form>
     <button>Test1</button>
     <button>Test2</button>
     <button>Skip</button>

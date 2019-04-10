@@ -50,8 +50,10 @@
     Assert.AreEqual("John", firstName);             <br>
     }           <br>
 </p>
+
 <form action="AnswerServlet" method="post">
-    <output name="answer_id" for="1"></output>
+    <input type="hidden" name="answer_id" value="2">
+    <br>
     <input type="radio" name="user_answer" value="1">Method 1
 
     <br>
@@ -59,11 +61,10 @@
     <br>
     <input type="submit"value="提交">
 </form>
-<button>Test1</button>
-<button>Test2</button>
+
 <button>Skip</button>
 <button>HINT</button>
-<a href="expected_result.jsp"><font size="2"><i>Next Question</i></font></a>
+<!--a href="expected_result.jsp"><font size="2"><i>Next Question</i></font></a-->
 </body>
 
 
