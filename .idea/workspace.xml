@@ -6,16 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b89b99ae-6741-4f56-ad06-ecaee4310d63" name="Default" comment="界面跳转功能完成">
+    <list default="true" id="b89b99ae-6741-4f56-ad06-ecaee4310d63" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../STGame/src/main/java/DAO/PointDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../STGame/src/webapp/images/4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../STGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/out/artifacts/STGame_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/out/artifacts/STGame_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STGame/src/main/java/Servlet/AnswerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/main/java/Servlet/AnswerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/WEB-INF/classes/Servlet/AnswerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/WEB-INF/classes/Servlet/AnswerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/adequately_testing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/adequately_testing.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/chaining_test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/chaining_test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/expected_result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/expected_result.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/named_correctly.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/named_correctly.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/specific_value.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/specific_value.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/test_private_method.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/test_private_method.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STGame/src/webapp/jsp/too_much_assertion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../STGame/src/webapp/jsp/too_much_assertion.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="AnswerServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/Servlet/AnswerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="89" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="89" />
+            <state relative-caret-position="346">
+              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,20 +37,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My_Puzzle.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="My_Puzzle.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adequately_testing.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="learn.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/css/learn.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-737" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/QuestionDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="55" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addUser#0;class#UserDao#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PointDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/PointDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adequately_testing.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/adequately_testing.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+            <state relative-caret-position="275">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -60,7 +111,7 @@
       <file leaf-file-name="chaining_test.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/chaining_test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="1254">
               <caret line="66" column="80" selection-start-line="66" selection-start-column="80" selection-end-line="66" selection-end-column="80" />
             </state>
           </provider>
@@ -69,56 +120,8 @@
       <file leaf-file-name="expected_result.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/expected_result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="1311">
               <caret line="69" column="80" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="named_correctly.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/named_correctly.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="specific_value.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/specific_value.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="too_much_assertion.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/too_much_assertion.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_private_method.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/test_private_method.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JumpServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/Servlet/JumpServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +131,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,10 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/webapp/jsp/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/lky/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/lky/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servelet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/webapp/jsp/regist.jsp" />
@@ -188,16 +187,20 @@
         <option value="$PROJECT_DIR$/src/main/java/Servlet/AnswerServlet.java" />
         <option value="$PROJECT_DIR$/src/webapp/jsp/My_Puzzle.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Servlet/JumpServlet.java" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp" />
-        <option value="$PROJECT_DIR$/../STGame/src/main/java/Servlet/JumpServlet.java" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/too_much_assertion.jsp" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/test_private_method.jsp" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/specific_value.jsp" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/named_correctly.jsp" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/expected_result.jsp" />
-        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/chaining_test.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/My_Puzzle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlet/JumpServlet.java" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/too_much_assertion.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/test_private_method.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/specific_value.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/named_correctly.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/expected_result.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/chaining_test.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/jsp/adequately_testing.jsp" />
+        <option value="$PROJECT_DIR$/../STGame/src/main/java/DAO/PointDao.java" />
+        <option value="$PROJECT_DIR$/../STGame/src/main/java/Servlet/AnswerServlet.java" />
         <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/adequately_testing.jsp" />
+        <option value="$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp" />
       </list>
     </option>
   </component>
@@ -213,12 +216,17 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,9 +341,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,6 +372,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat_1">
+    <configuration name="PointDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAO.PointDao" />
+      <module name="STGame" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="QuestionDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DAO.QuestionDao" />
       <module name="STGame" />
@@ -506,9 +522,11 @@
       <item itemvalue="Tomcat Server.tomcat_1" />
       <item itemvalue="Application.UserDao" />
       <item itemvalue="Application.QuestionDao" />
+      <item itemvalue="Application.PointDao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PointDao" />
         <item itemvalue="Application.QuestionDao" />
         <item itemvalue="Application.UserDao" />
       </list>
@@ -538,7 +556,8 @@
       <workItem from="1554709015930" duration="2536000" />
       <workItem from="1554789593148" duration="2667000" />
       <workItem from="1554792992110" duration="13229000" />
-      <workItem from="1554866002504" duration="6661000" />
+      <workItem from="1554866002504" duration="7303000" />
+      <workItem from="1554958672759" duration="9528000" />
     </task>
     <task id="LOCAL-00001" summary="Update some jsps">
       <created>1554789693849</created>
@@ -561,18 +580,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554878230621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="界面跳转功能完成">
+      <created>1554878592465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554878592465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57143000" />
+    <option name="totallyTimeSpent" value="67313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.15820312" side_tool="true" visible="true" weight="0.24309392" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.1595052" side_tool="true" weight="0.24309392" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -584,15 +610,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.47721353" weight="0.32872927" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.4752604" weight="0.32872927" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8417969" visible="true" weight="0.24309392" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8404948" visible="true" weight="0.24309392" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29296875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29296875" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -612,7 +638,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update some jsps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update some jsps" />
+    <MESSAGE value="界面跳转功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="界面跳转功能完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,17 +651,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="135" lean-forward="true" selection-start-line="51" selection-start-column="135" selection-end-line="51" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -872,20 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addUser#0;class#UserDao#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/WEB-INF/classes/Servlet/AnswerServlet.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/Servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -907,44 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/Servlet/JumpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="209">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/Servlet/AnswerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="89" lean-forward="true" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -953,50 +925,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/too_much_assertion.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        <state relative-caret-position="1140">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/test_private_method.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="1273">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/specific_value.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="1159">
           <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/named_correctly.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="1368">
           <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/expected_result.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="1311">
           <caret line="69" column="80" selection-start-line="69" selection-start-column="80" selection-end-line="69" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/chaining_test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="1254">
           <caret line="66" column="80" selection-start-line="66" selection-start-column="80" selection-end-line="66" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addUser#0;class#UserDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/QuestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="55" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/DAO/PointDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/main/java/Servlet/AnswerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/adequately_testing.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        <state relative-caret-position="275">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../STGame/src/webapp/jsp/My_Puzzle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
         </state>
       </provider>
     </entry>

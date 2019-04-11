@@ -12,6 +12,13 @@
 </head>
 <body>
 This is my puzzle
+<%
+    Object point1=request.getAttribute("point");
+    String point=point1.toString();
+    //point=point+".png";
+    String path = "images/"+point+".png";
+%>
+<img src=<%=path%>>
 <form action="JumpServlet" method="post">
     <input type="hidden" name="question_id" value="1">
     <input type="submit" value="No.1">

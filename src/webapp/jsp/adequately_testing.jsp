@@ -58,6 +58,8 @@
 <form action="AnswerServlet" method="post">
     <input type="hidden" name="answer_id" value="1">
     <br>
+    <input type="hidden" name="user_id" value="1">
+    <br>
     <input type="radio" name="user_answer" value="1">Method 1
 
     <br>
@@ -65,6 +67,7 @@
     <br>
     <input type="submit"value="提交">
 </form>
+
 <button>Skip</button>
 <button>HINT</button>
 <!--a href="jsp/chaining_test.jsp"><font size="2"><i>Next Question</i></font></a-->
