@@ -21,23 +21,23 @@
 <h1>START YOUR FIRST CLASS</h1>
 <h2>Select the better test.</h2>
 <p>
-    for methods like this:
-    public class RegistrationForm {
+    for methods like this:          <br>
+    public class RegistrationForm {         <br>
 
-    private String name,email,pwd,pwdVerification;
-    // Setters - Getters are ommitted
-    public boolean register(){
-    validate();
-    return doRegister();
-    }
+    private String name,email,pwd,pwdVerification;          <br>
+    // Setters - Getters are ommitted    <br>
+    public boolean register(){          <br>
+    validate();         <br>
+    return doRegister();            <br>
+    }               <br>
 
-    private boolean doRegister() {
-    //Do something with the persistent context
-    return true;
+    private boolean doRegister() {              <br>
+    //Do something with the persistent context    <br>
+    return true;            <br>
     }
 
     //[TestMethod1]     <br>
-    No need to test this method
+    No need to test this method <br>
 
     //[TestMethod2]    <br>
     @Test           <br>

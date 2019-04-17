@@ -1,4 +1,4 @@
-<%--
+<%@ page import="DAO.PointDao" %><%--
   Created by IntelliJ IDEA.
   User: 克渊
   Date: 2019/4/9
@@ -13,10 +13,11 @@
 <body>
 This is my puzzle
 <%
-    Object point1=request.getAttribute("point");
+    Object point1 = new PointDao().findPoint("1");
+    //Object point1=request.getAttribute("point");
     String point=point1.toString();
     //point=point+".png";
-    String path = "images/"+point+".png";
+    String path = "images/"+point+".jpg";
 %>
 <img src=<%=path%>>
 <form action="JumpServlet" method="post">

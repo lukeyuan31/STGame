@@ -12,7 +12,7 @@
 <head>
     <title>GETTING STARTED</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible   " content="IE=edge">
     <title>GETTING STARTED WITH SOME EXAMPLES</title>
     <meta name="description" content="Try to find out the better one among these tests.">
     <link rel="stylesheet" href="<%=path%>/css/learn.css">

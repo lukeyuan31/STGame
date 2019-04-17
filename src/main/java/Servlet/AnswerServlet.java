@@ -31,6 +31,7 @@ public class AnswerServlet extends HttpServlet {
         }
         if (user_answer.equals(ans)){
             request.setAttribute("msg","回答正确！");
+            new PointDao().addPoint("1");
             point+=1;
             request.setAttribute("point",point);
             request.getRequestDispatcher("jsp/My_Puzzle.jsp").forward(request, response);
