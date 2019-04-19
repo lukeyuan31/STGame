@@ -22,7 +22,9 @@ public class UserCodeServlet extends HttpServlet {
             BufferedWriter bw = new BufferedWriter(f);
             bw.write(user_code);
             bw.close();
-            request.getRequestDispatcher("jsp/index.jsp").forward(request,response);
+            Static_Analysis sa=new Static_Analysis();//调用静态分析对输入进行判断分析
+            sa.JavaAnalysis(filePath);
+            request.getRequestDispatcher("jsp/CodeTest1.jsp").forward(request,response);
         } catch (Exception e) {
             e.printStackTrace();
         }
