@@ -43,5 +43,9 @@ public class JumpServlet extends HttpServlet {
                     request.getRequestDispatcher("jsp/too_much_assertion.jsp").forward(request, response);;
                     return;
                 }
+                if (question_id.equals("8")){
+                    request.getRequestDispatcher("jsp/CodeTest1.jsp").forward(request,response);
+                }
+
     }
 }
