@@ -31,5 +31,8 @@
 <textarea rows="40" cols="100" name="user_input"> </textarea>
     <input type="submit" style="background-color: #93defe">
 </form>
+<div>
+    <font color="aqua" size="2">${message}</font>
+</div>
 </body>
 </html>

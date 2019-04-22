@@ -1,5 +1,7 @@
 package Servlet;
 
+import com.sun.deploy.net.HttpRequest;
+
 import java.io.*;
 
 import javax.servlet.http.*;
@@ -22,8 +24,16 @@ public class UserCodeServlet extends HttpServlet {
             BufferedWriter bw = new BufferedWriter(f);
             bw.write(user_code);
             bw.close();
+            ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream(1024);
+            PrintStream cacheStream= new PrintStream(byteArrayOutputStream);
+            PrintStream oldStream=System.out;
+            System.setOut(cacheStream);
             Static_Analysis sa=new Static_Analysis();//调用静态分析对输入进行判断分析
             sa.JavaAnalysis(filePath);
+            String message=byteArrayOutputStream.toString();
+            System.setOut(oldStream);
+            HttpSession session=request.getSession();
+            session.setAttribute("message",message);
             request.getRequestDispatcher("jsp/CodeTest1.jsp").forward(request,response);
         } catch (Exception e) {
             e.printStackTrace();
