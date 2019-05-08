@@ -6,12 +6,14 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>My puzzle</title>
+    <link type="text/css" link rel="stylesheet" href="css/puzzle.css">
 </head>
 <body>
-This is my puzzle
+<h1>This is my puzzle part</h1>
 <%
     Object point1 = new PointDao().findPoint("1");
     //Object point1=request.getAttribute("point");

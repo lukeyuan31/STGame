@@ -12,7 +12,7 @@ import DAO.PointDao;
 
 public class AnswerServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    public void doPost(HttpServletRequest request, HttpServletResponse response)
+        public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
             request.setCharacterEncoding("utf-8");
         response.setContentType("text/html;charset=utf-8");
