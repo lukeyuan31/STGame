@@ -20,39 +20,43 @@
 <h1>START YOUR FIRST CLASS</h1>
 <h2>Select the better test.</h2>
 <p>
-    //[TestMethod1]    <br>
-    @Test           <br>
-    public void test_register(){          <br>
-    RegistrationForm form = new RegistrationForm();              <br>
-    form.setEmail("Al.Pacino@example.com");              <br>
-    form.setName("Al Pacino");                       <br>
-    form.setPwd("GodFather");                            <br>
-    form.setPwdVerification("GodFather");            <br>
+    <code>
+------------------------------------------------------------------------------------------<br>
+        //[TestMethod1]    <br>
+        @Test           <br>
+        <strong>public void </strong>test_register() {          <br>
+        RegistrationForm <var>form</var> = new RegistrationForm();              <br>
+        <var>form</var>.setEmail("Al.Pacino@example.com");              <br>
+        <var>form</var>.setName("Al Pacino");                       <br>
+        <var>form</var>.setPwd("GodFather");                            <br>
+        <var>form</var>.setPwdVerification("GodFather");            <br>
 
-    assertNotNull(form.getEmail());                  <br>
-    assertNotNull(form.getName());                      <br>
-    assertNotNull(form.getPwd());                    <br>
-    assertNotNull(form.getPwdVerification());                <br>
+        assertNotNull(<var>form</var>.getEmail());                  <br>
+        assertNotNull(<var>form</var>.getName());                      <br>
+        assertNotNull(<var>form</var>.getPwd());                    <br>
+        assertNotNull(<var>form</var>.getPwdVerification());                <br>
 
-    form.register();         <br>
-    }
-
+        form.register();         <br>
+        } <br>
+-------------------------------------------------------------------------------------------<br>
     //[TestMethod2]     <br>
-    private boolean validate(RegistrationForm form){
-    //Check if all the inputs are in the correct form
-    }
-    @Test
-    public void test_register_right(){          <br>
-    RegistrationForm form = new RegistrationForm();              <br>
-    form.setEmail("Al.Pacino@example.com");              <br>
-    assertEqual("Al.Pacino@example.com",form.getEmail());                  <br>
+    <strong>private boolean </strong>validate(RegistrationForm form){  <br>
+    //Check if all the inputs are in the correct form<br>
+    }<br>
+    @Test<br>
+    <strong>public void </strong>test_register_right(){          <br>
+    RegistrationForm <var>form</var> = new RegistrationForm();              <br>
+    <var>form</var>.setEmail("Al.Pacino@example.com");              <br>
+    assertEqual("Al.Pacino@example.com",<var>form</var>.getEmail());                  <br>
 
     }      <br>
-    public void test_register_null(){           <br>
-    RegistrationForm form = new RegistrationForm();         <br>
-    form.setEmail(null);            <br>
-    assertTrue(form.validate);          <br>
+    <strong>public void </strong>test_register_null(){           <br>
+    RegistrationForm <var>form</var> = new RegistrationForm();         <br>
+    <var>form</var>.setEmail(null);            <br>
+    assertTrue(<var>form</var>.validate);          <br>
     }       <br>
+
+</code>
 
 </p>
 <form action="AnswerServlet" method="post">

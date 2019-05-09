@@ -13,6 +13,7 @@
     <link type="text/css" link rel="stylesheet" href="css/puzzle.css">
 </head>
 <body>
+<div style="clear: right"><font color="#8b4513" size="2"> ${msg }</font> </div>
 <h1>This is my puzzle part</h1>
 <%
     Object point1 = new PointDao().findPoint("1");
@@ -34,6 +35,11 @@
 <%
     }
 %>
+<div style="clear: left">
+    <h2>Push the button to enter questions</h2>
+</div>
+
+
 <form action="JumpServlet" method="post">
     <input type="hidden" name="question_id" value="1">
     <input type="submit" value="No.1">
@@ -62,6 +68,7 @@
     <input type="hidden" name="question_id" value="7">
     <input type="submit" value="No.7">
 </form>
-<font color="red" size="2"> ${msg }</font>
+
+
 </body>
 </html>

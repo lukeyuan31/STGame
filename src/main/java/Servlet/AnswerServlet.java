@@ -25,7 +25,7 @@ public class AnswerServlet extends HttpServlet {
         int point=Integer.parseInt(strpoint);
         if (user_answer==null){
            request.setAttribute("msg","请输入您的答案");
-           request.getRequestDispatcher("jsp/index.jsp").forward(request, response);
+           request.getRequestDispatcher("jsp/My_Puzzle.jsp").forward(request, response);
            return;
 
         }
