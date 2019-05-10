@@ -21,7 +21,7 @@
 <h2>Select the better test.</h2>
 <p>
     <code>
-------------------------------------------------------------------------------------------<br>
+
         //[TestMethod1]    <br>
         @Test           <br>
         <strong>public void </strong>test_register() {          <br>
@@ -38,7 +38,10 @@
 
         form.register();         <br>
         } <br>
--------------------------------------------------------------------------------------------<br>
+    </code>
+</p>
+<p>
+    <code>
     //[TestMethod2]     <br>
     <strong>private boolean </strong>validate(RegistrationForm form){  <br>
     //Check if all the inputs are in the correct form<br>

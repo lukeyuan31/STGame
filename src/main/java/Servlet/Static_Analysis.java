@@ -23,7 +23,7 @@ public class Static_Analysis {
     public void JavaAnalysis(String str) throws Exception{
         File inFile  = new File(str);
         if(inFile.exists()){
-            System.out.println("Successfully opened file");
+            //System.out.println("Successfully opened file");
             try {
                 FileReader reader= new FileReader(inFile);
                 BufferedReader br = new BufferedReader(reader);
@@ -31,7 +31,7 @@ public class Static_Analysis {
                 while ((string = br.readLine())!=null){
                     string = string.trim().replace(" +"," ")
                             .replaceAll("\\t"," ");
-                    System.out.println(string);
+                    //System.out.println(string);
                     judgement();
                 }
                 br.close();
@@ -41,7 +41,7 @@ public class Static_Analysis {
             }
         }else
         {
-            System.out.println("Open file failed");
+            //System.out.println("Open file failed");
         }
     }
 
@@ -98,7 +98,7 @@ public class Static_Analysis {
 
     public void specificCheck(String target,String input){
         if(target.equals("assertEquals")||input.equals("assertNotNull")){
-            System.out.println("Your test is not specific enough!");
+            //System.out.println("Your test is not specific enough!");
         }
     }
 
@@ -161,14 +161,14 @@ public class Static_Analysis {
                     break;
                 case 4:
                     i--;
-                    System.out.println("(4"+"'"+str+ "')");
+                  //  System.out.println("(4"+"'"+str+ "')");
                     wordString = ("(4"+ "'"+str + "')");
                     vc.add(wordString);
                     m=0;
                     break;
                 case 5:
                     i--;
-                    System.out.println("( 5 "+"“ "+ch+ " ” )");
+                  //  System.out.println("( 5 "+"“ "+ch+ " ” )");
                     wordString = ("( 4 "+ "“"+ch + " ” )");
                     vc.add(wordString);
                     m = 0;
@@ -185,17 +185,17 @@ public class Static_Analysis {
                                 //System.out.println("Detected assert");
                                 assertCount +=1;
                                 assertionType=str;
-                                System.out.println(assertCount);
-                                System.out.println(assertionType);
+                              //  System.out.println(assertCount);
+                               // System.out.println(assertionType);
                                 specificCheck("assertEquals",str);
                             }
 
-                            System.out.println("( 1 " + "“ " + str + " ” )");
+                          //  System.out.println("( 1 " + "“ " + str + " ” )");
                             wordString = ("( 1 " + "“ " + str + " ” )");
                             vc.add(wordString);
                         } else
                         {
-                            System.out.println(("( 2 " + "“ " + str + " ” )"));
+                           // System.out.println(("( 2 " + "“ " + str + " ” )"));
                             wordString = ("( 2 " + "“ " + str + " ” )");
                             vc.add(wordString);
                         }
@@ -209,7 +209,7 @@ public class Static_Analysis {
                         str += ch;
                     } else
                     {
-                        System.out.println("( 3 " + "“ " + str + " ” )");
+                        //System.out.println("( 3 " + "“ " + str + " ” )");
                         wordString = "( 3 " + "“ " + str + " ” )";
                         vc.add(wordString);
                         i--;

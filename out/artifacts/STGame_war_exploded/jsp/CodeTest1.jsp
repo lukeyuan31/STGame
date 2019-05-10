@@ -16,15 +16,24 @@
 
 </head>
 <body>
-<h1>Write your code to test the given method</h1>
-<h2>Here is the method to be tested</h2>
+<h1>Write your test</h1>
+<h2>Method to be tested</h2>
 <p>
-    public void TestMethod(){       <br>
-            int test1=0;            <br>
-            String test2="test";    <br>
-            Boolean test3=true;     <br>
+    <strong>public class </strong>Calculator{           <br>
+    <strong>public int </strong>add(int a, int b){              <br>
+            return a + b;                                           <br>
+                }                                           <br>
 
-    }<br>
+    <strong>public int </strong>subtract(int a, int b){             <br>
+            return a - b;                   <br>
+                }<<br>
+    <strong>public int </strong>multiply(int a, int b){<br>
+            return a * b;                                       <br>
+                }                                       <br>
+    <strong>public int </strong>divide(int a, int b){           <br>
+            return a / b;                                   <br>
+                 }                                      <br>
+    }
 </p>
 <form action="UserCodeServlet" method="post">
     <input type="hidden" name="user_id" value="1">
@@ -32,7 +41,7 @@
     <input type="submit" style="background-color: #93defe">
 </form>
 <div>
-    <font color="aqua" size="2">${message}</font>
+    <font color="black" size="2">${message}</font>
 </div>
 </body>
 </html>
